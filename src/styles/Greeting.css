@@ -1,0 +1,22 @@
+.greeting {
+  color: #F8E9E9;
+  padding: 0px 12px 8px 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.increase-score {
+  background-color: #FDD521;
+  height: 28px;
+  border: none;
+  cursor: pointer;
+  transition: all ease 0.5s;
+}
+
+.increase-score:hover {
+  background-color: #FDC421;
+}

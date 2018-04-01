@@ -1,0 +1,11 @@
+.title {
+  margin: 8px;
+  color: #F8E9E9;
+}
+
+.list-of-names {
+  background-color: rgba(43, 11, 51, 0.5);
+  width: 40%;
+  margin: 0 auto;
+  padding: 12px;
+}
