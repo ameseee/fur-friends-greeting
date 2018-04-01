@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import '../styles/Greeting.css'
 
-const Greeting = () => {
+const Greeting = (props) => {
   return (
     <div className="greeting">
-      <p>✨cute furry thing✨</p>
+      <p>✨{props.name}✨</p>
       <p>10</p>
       <button className="increase-score">+1</button>
     </div>
