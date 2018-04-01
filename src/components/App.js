@@ -7,9 +7,9 @@ const App = () => {
   return (
     <div className="list-of-names">
       <h1 className="title">Well hello...</h1>
-      <Greeting />
-      <Greeting />
-      <Greeting />
+      <Greeting name="Shih-Tzu"/>
+      <Greeting name="Shar-Pei"/>
+      <Greeting name="Hedgie"/>
     </div>
   )
 }
