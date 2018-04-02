@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Greeting from './Greeting';
+import FurFriend from './FurFriend';
 import logo from '../logo.svg';
 import '../styles/App.css';
 
@@ -7,9 +7,9 @@ const App = () => {
   return (
     <div className="list-of-names">
       <h1 className="title">Well hello...</h1>
-      <Greeting />
-      <Greeting />
-      <Greeting />
+      <FurFriend />
+      <FurFriend />
+      <FurFriend />
     </div>
   )
 }

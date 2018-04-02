@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '../styles/Greeting.css'
+import '../styles/FurFriend.css'
 
-const Greeting = () => {
+const FurFriend = () => {
   return (
     <div className="greeting">
       <p>✨cute furry thing✨</p>
@@ -11,4 +11,4 @@ const Greeting = () => {
   )
 }
 
-export default Greeting;
+export default FurFriend;
